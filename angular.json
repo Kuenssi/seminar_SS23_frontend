@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "seminarW22_frontend": {
+    "seminarSS23_frontend": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/seminar-w22-frontend",
+            "outputPath": "dist/seminar-ss23-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "seminarW22_frontend:build:production"
+              "browserTarget": "seminarSS23_frontend:build:production"
             },
             "development": {
-              "browserTarget": "seminarW22_frontend:build:development"
+              "browserTarget": "seminarSS23_frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "seminarW22_frontend:build"
+            "browserTarget": "seminarSS23_frontend:build"
           }
         },
         "test": {
